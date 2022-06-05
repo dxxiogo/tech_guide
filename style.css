@@ -19,6 +19,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 header{
     position: fixed;
     background-color: var(--color--fonts);
@@ -161,7 +162,7 @@ button > a{
 /* -----------------------------------------------------*/
 
 .contact{
-    min-height: 100vh;
+    min-height: 80vh;
      display: grid;
      grid-template-columns: 1fr 1fr;
      gap: 10px;
@@ -169,7 +170,7 @@ button > a{
 .question-information{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 10%;
     padding-left: 50px;
     gap: 20px;
 }
@@ -197,7 +198,7 @@ button > a{
 .contact-form{
     display: flex;
     flex-direction: column;
-    padding-top: 30%;
+    padding-top: 10%;
 }
 .contact-form input {
     margin: 10px 80px;
@@ -284,9 +285,10 @@ footer{
     }
     .contact{
         grid-template-columns: 1fr;
+        gap: 0px;
     }
     .question-information{
-        padding-left: 20px;
+        padding-left: 30px;
     }
     .detail-information{
         width: 80%;
@@ -301,6 +303,10 @@ footer{
     }
     .question-information h2{
         font-size: 24px;
+    }
+    .contact-form{
+        margin: 0px 10px;
+        padding-top: 10%;
     }
     .contact-form label{
         margin: 0px 20px ;
