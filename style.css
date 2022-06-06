@@ -24,7 +24,7 @@ header{
     position: fixed;
     background-color: var(--color--fonts);
     width: 100%;
-    min-height: 10%;
+    min-height: 10vh;
     padding: 10px;
 }
 nav{
@@ -160,6 +160,61 @@ button > a{
     margin-top: 60px;
 }
 /* -----------------------------------------------------*/
+.about-content{
+    min-height: 120vh;
+}
+.box-content{
+    background-color: var(--color-menu);
+    border: 2px solid var(--color--fonts);
+    max-width: 95%;
+    margin: auto;
+    border-radius: 30px;
+    min-height: 110vh;
+}
+.box-content h1{
+    font-size: 60px;
+    font-family: var(--font-title);
+    font-weight: 700;
+    width: 40%;
+    margin: 80px 10px 25px 80px;
+}
+.content-boxs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+}
+.box-content-item{
+    background-color: var(--color-text);
+    border: 2px solid var(--color--fonts);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    max-width: 500px;
+    min-height: 200px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 20px;
+}
+.content-item-text h2{
+    font-family: var(--font-title);
+    font-weight: 700;
+}
+.content-item-text p{
+    font-family: var(--font-text);
+    font-weight: 400;
+    padding-top: 5px;
+    line-height: 1.5em;
+}
+.box-content-item img{
+    height: 110px;
+}
+
+
+
+
+/* -----------------------------------------------------*/
 
 .contact{
     min-height: 80vh;
@@ -184,11 +239,14 @@ button > a{
 .detail-information{
     display: flex;
     align-items: center;
-    font-family: var(--font-text);
-    font-weight: 400;
     gap: 20px;
     width: 65%;
     text-align: justify;
+}
+.detail-information p{
+    line-height: 1.5em;
+    font-family: var(--font-text);
+    font-weight: 400;
 }
 
 .forms{
@@ -209,6 +267,7 @@ button > a{
     border-radius: 5px;
     padding: 5px;
     border: 0.6px solid var(--color--fonts);
+    background-color: var(--color-text);
 }
 .contact-form input:focus{
     border: .5px solid var(--color-details);
@@ -237,8 +296,13 @@ button > a{
 }
 footer{
     height: 30px;
-    max-width: 100%;
-
+    background-color: var(--color--fonts);
+    width: 400px;
+    color: var(--color-text);
+    padding-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
+    margin: auto;
     text-align: center;
 
 }
@@ -279,10 +343,35 @@ footer{
         font-size: 14px;
     }
     .about-us img{
-        height: 300px;
+        height: 275px;
         margin-top: 30px;
         margin-bottom: 10px;
     }
+    /*--------------------------------------------------*/
+    .box-content-item{
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    .box-content h1{
+        font-size: 30px;
+        width: 100%;
+        margin: 30px 10px;
+    }
+    .box-content-item img{
+        height: 100px;
+        margin: 5% 25%;
+    }
+    .content-boxs{
+        grid-template-columns: 1fr;
+    }
+    .content-item-text h2{
+        font-size: 18px;
+    }
+    .content-item-text p{
+        font-size: 14px;
+    }
+
+     /*--------------------------------------------------*/
     .contact{
         grid-template-columns: 1fr;
         gap: 0px;
