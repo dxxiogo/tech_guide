@@ -77,6 +77,20 @@ nav {
   cursor: pointer;
 }
 
+#burger {
+  padding: 10px;
+  text-align: center;
+  background-color: #0D0D0D;
+  padding-top: 10px;
+  display: none;
+}
+#burger #menu-burger-links {
+  list-style: none;
+}
+#burger #menu-burger-links .menu-item {
+  padding: 5px;
+}
+
 .background-black {
   min-height: 100vh;
   background-color: rgba(13, 13, 13, 0.7882352941);
@@ -337,6 +351,13 @@ footer .references {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+footer .references img {
+  opacity: 0.5;
+  transition: 2s;
+}
+footer .references img:hover {
+  opacity: 1;
 }
 footer .references ul {
   list-style: none;

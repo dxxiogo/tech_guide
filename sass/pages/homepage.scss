@@ -64,6 +64,19 @@ nav{
     height: 2px;
     cursor: pointer;
 }
+#burger{
+    padding: 10px;
+    text-align: center;
+    background-color: $color-text-menu;
+    padding-top: 10px;
+    display: none;
+    #menu-burger-links{
+        list-style: none;
+        .menu-item{
+            padding: 5px;
+        }
+    }
+}
 
 
 .background-black{
@@ -302,6 +315,13 @@ footer{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        img{
+            opacity: 0.5;
+            transition: 2s;
+        }
+        img:hover{
+            opacity: 1.0;
+        }
         ul{
             list-style: none;
             display: flex;
