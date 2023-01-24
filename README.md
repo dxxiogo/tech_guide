@@ -1,7 +1,7 @@
 
 # Tech Guide
 
-Site projetado para a disciplina de Linguagem de Marcação do curso de Análise e Desenvolvimento de Sistemas, do IFPB. O site é um guia de carreira de tecnologia,que têm como objetivo trazer um guia que vai ajudar na escolha de sua carreira na área de tecnologia. Esse site foi um projeto final para a disciplina, e a prática geral e todos os conteúdos vistos durante o 1° período.
+Site foi projetado para a disciplina de Linguagem de Marcação do curso de Análise e Desenvolvimento de Sistemas, do IFPB. O site é um guia de carreira de tecnologia,que têm como objetivo trazer um guia que vai ajudar na escolha de sua carreira na área de tecnologia. Esse site foi um projeto final e a prática geral de todos os conteúdos vistos durante o 1° período dentro da disciplina.
 
 <img src="imagens/print.png" alt="">
 
